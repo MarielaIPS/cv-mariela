@@ -1,0 +1,135 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(216, 157, 221) ;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Noto Serif', 'cursive';
+}
+
+ul,li {
+    list-style: none;
+}
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.headerPrincipal {
+	background-color: rgb(240, 205, 233);
+	padding: 20px 0;
+}
+
+.headerPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.headerPrincipal-titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.headerPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	background-color:  rgb(240, 205, 233);
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+	border-bottom: 1px solid #9799A6;
+}
+
+/*flex*/
+.headerPrincipal .container{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+  
+  .headerPrincipal-nav{
+      flex-direction: column;      
+  }
+
+  .mi_foto{
+    display: none;
+  }
+
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .title__network{
+        display: flex;
+    }
+
+
+  @media (min-width:780px){
+    .headerPrincipal .container{
+        width: 85%;
+        display: flex;/*pone al contenido uno al lado del otro osea al logo y al nav*/
+        flex-direction: row;
+        align-items: center;/*quedan alineados los elementos*/
+        justify-content: space-between; /*espacio entre elementos*/
+    }
+    
+    .headerPrincipal-nav{   
+        display: flex; /*lo que hace es poner uno al lado del otro a cada li dentro del nav*/
+        flex-direction: row;
+    }
+
+	.headerPrincipal-nav-link {
+		border-radius: 5px;
+		border: 1px solid #9799A6;
+	}
+
+	.headerPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color:  rgb(216, 157, 221);
+	}
+
+	.headerPrincipal-titulo {
+		margin: 0;
+	}
+
+	.headerPrincipal-nav {
+		width: auto;
+	}
+
+	.headerPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+
+
+    .title__div {
+        display: flex;
+        margin: 83px auto;
+        padding: 30px;
+    }
+
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+
+    .mi_foto{
+        display: flex;
+        width: 100%;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .title__network{
+        display: flex;
+    }
+
+    }

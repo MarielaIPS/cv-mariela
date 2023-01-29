@@ -1,0 +1,42 @@
+
+section.form{
+    display: flex;
+    background-color: rgb(216, 157, 221);
+    
+}
+
+.form__contacto{
+    display: flex;
+    margin: 0 auto;
+   
+}
+
+.form__text{
+    display: flex;
+    flex-direction: column;
+     margin: 20px;
+}
+
+.form__titulo , .form__subtext{
+    margin: 15px;
+}
+
+.form__form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.label{
+    margin: 0 10px;
+}
+
+.form__input , .form__textarea{
+    width: 50%;
+    margin: 10px;
+}
+
+.form__boton{
+    width: 20%;
+    margin: 10px;
+}

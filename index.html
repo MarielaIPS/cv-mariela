@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="MP.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="experiencia.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Cv Mariela</title>
+</head>
+
+<body>
+
+    <header class="headerPrincipal">
+        <div class="container">
+            <h1 class="headerPrincipal-titulo">
+                <img src="logoArgentina.svg">
+                <a href="#">Mariela Perez</a>
+            </h1>
+
+            <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-nav-link" href="#">Sobre mi</a>
+                <a class="headerPrincipal-nav-link" href="#experiencia">Experiencia</a>
+                <a class="headerPrincipal-nav-link" href="#contacto">Contacto</a>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <section class="title">
+            <div class="title__div"> 
+                <div class="div_img">
+                    <img class="mi_foto" src="IMG_20191225_012224.jpg" alt="foto de mujer">
+                </div>
+
+                <div class="title__container">
+                    <h2 class="title__bio">Hola, mi nombre es Mariela Perez</h2>
+                    <h3 class="title__subsection"> Estoy aprendiendo a diseñar paginas webs, mi intencion es aprender
+                        lenguajes de programacion para asi poder insertarme en el mundo laboral IT.Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Hic officiis
+                        enim aspernatur. Voluptatibus illum, at nisi magni est aperiam dolor atque et animi
+                        necessitatibus cumque quod dignissimos reiciendis maxime delectus!
+                        .... lorem ipsum sit amet consectetur Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Iure rem vitae aliquid voluptas illum tenetur vel, accusamus debitis ducimus quaerat quis,
+                        aspernatur repudiandae odio fuga eligendi quos dolores, tempora beatae!
+
+                    </h3>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="experiencia" id="experiencia">
+            <div>
+                <h2 class="experiencia__titulo">Experiencia Laboral</h2>
+            </div>
+
+            <ul class="experiencia__tarjetas">
+                <li class="tarjetas">
+                    <h3 class="tarjetas__titulo">Empleada de Comercio</h3>
+                    <article class="tarjetas__contenido">
+                        <p class="tarjetas__texto">desde 2018 - Actual</p>
+                        <p class="tarjetas__texto">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Nostrum, repellendus aliquam asperiores,
+                            assumenda ipsa cum nulla exercitationem incidunt facilis error sed adipisci. Quos incidunt
+                            similique libero adipisci nesciunt architecto</p>
+                        <p class="tarjetas__texto">Tel de contacto: 156373873 (Fulana)</p>
+                    </article>
+                </li>
+                <li class="tarjetas">
+                    <h3 class="tarjetas__titulo">Administrativa</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__texto">fecha</p>
+                        <p class="tarjetas__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Esse, error, eligendi placeat repudiandae enim commodi et voluptatem nam accusamus
+                            labore ad dolor, ipsum beatae harum iste veniam blanditiis fugiat inventore.</p>
+                        <p class="tarjetas__texto">Tel de contacto: 156373873 (Fulana)</p>
+                    </articule>
+                </li>
+                <li class="tarjetas">
+                    <h3 class="tarjetas__titulo">Niñera</h3>
+                    <articule class="tarjetas__contenido">
+                        <p class="tarjetas__texto">fecha</p>
+                        <p class="tarjetas__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Beatae eaque ipsum quisquam soluta culpa et, voluptate, ab accusamus optio omnis nisi!
+                            Sed laborum tenetur ullam doloremque voluptates esse inventore nobis.</p>
+                        <p class="tarjetas__texto">Tel de contacto: 156373873 (Fulana)</p>
+                    </articule>
+                </li>
+            </ul>
+        </section>
+
+        
+
+        <section class="form" id="contacto">
+            <div class="form__contacto">
+                <div class="form__text">
+                    <h2 class="form__titulo">Contacto</h2>
+                    <h3 class="form__subtext">¿Quieres contactarme?</h3>
+                    <h3 class="form__subtext">Complete el siguiente formulario y me pondré en contacto con usted
+                        lo antes posible. </h3>
+                    <form class="form__form" name="form" id="formulario">
+                        <label for="" class="label">Nombre</label>
+                        <input class="form__input" type="text" name="nombre" placeholder="Nombre y Apellido"
+                            required id="nombre_contacto">
+                        <label for="" class="label">E-mail de contacto</label>
+                        <input class="form__input" type="email" name="email" placeholder="juanito@mail.com"
+                            required id="email">
+                        <label for="" class="label">Asunto</label>
+                        <input class="form__input" type="text" name="asunto" placeholder="Asunto">
+                        <label for="" class="label">Mensaje</label>
+                        <textarea class="form__textarea" rows="5" cols="40" id="mensaje" name="mensaje"
+                            placeholder="Mensaje"></textarea>
+                        <input type="submit" value="Enviar"class="form__boton" onclick="return enviarformulario()" >
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desarrollado por Mariela Perez 2023</p>
+        <ul class="title__network">
+            <li class="title__network__item"><a href="https://www.github.com/"><img src="icon-github.png"> </a></li>
+            <li class="title__network__item"><a href="https://www.Linkedin.com/"><img src="icon-linkedin.png"></a></li>
+            <li class="title__network__item"><a href="https://www.instagram.com/"><img src="icon-instagram.png"></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- scipt-->
+        <script src="funciones.js"></script> 
+</body>
+
+</html>
