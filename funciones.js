@@ -23,7 +23,7 @@ alert(mensaje)
 
 
   
-    var nombre= document.getElementById("nombre_contacto");
+    var nombre= document.getElementById("nombre");
     var email= document.getElementById("email");
     var texto=document.getElementById("mensaje");
   
